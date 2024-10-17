@@ -252,7 +252,7 @@ process_sortedbam () {
 
 for sortfile in *Aligned.out_sorted.bam;
 do
-    process_sortedbam $sortfile
+    process_sortedbam $sortfile &
 done    
 
 wait
